@@ -1,0 +1,16 @@
+<c3p0-config>
+    <!-- 配置c3p0数据源 -->
+	<named-config name="oracle_c3p0">
+	    <property name="driverClass">oracle.jdbc.driver.OracleDriver</property>
+		<property name="jdbcUrl">jdbc:oracle:thin:@localhost:1521:orcl</property>
+		<property name="user">momei</property>
+		<property name="password">momei</property>	
+		
+		<property name="acquireIncrement">20</property>
+		<property name="initialPoolSize">20</property>
+		<property name="minPoolSize">10</property>
+		<property name="maxPoolSize">200</property>
+		<property name="maxStatements">20</property>
+		<property name="maxStatementsPerConnection">10</property>
+	</named-config>
+</c3p0-config>

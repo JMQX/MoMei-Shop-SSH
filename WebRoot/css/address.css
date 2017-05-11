@@ -1,0 +1,80 @@
+label{
+       color:red;
+     }
+     
+     *{
+	padding: 0px;
+	margin:0px;
+    }
+     body
+	 {
+	   color:#666666;
+	   background-color:#F7F7F7;
+	 }
+
+	.my_box{
+	  width:1000px;
+	  height:auto;
+	  min-height: 550px;
+	  border:1px solid #EEEEEE;
+	  background-color:white;
+	  padding-top:20px;
+	  padding-left:20px;
+	}
+	hr{
+	 color:#F7F7F7;
+	}
+	h3{
+	   color:#333333;
+	 }
+	 font{
+	  color:#666666;
+	 }
+	 a{
+	   text-decoration:none;
+	   color:#666666;
+	    font-size:15px;
+	 }
+	 
+	  a:hover{
+	   color:#0089DC;
+	 }
+      
+      input
+     {
+       width:250px;
+       height:30px;
+     }
+     #sb
+     {
+       width:60px;
+	   height:30px;
+	   background-color:#0CC;
+	   border-radius:6px;
+	   color:white;
+	   font-weight:bold;
+     } 
+       
+    .address_box{
+    width: 980px;
+	height: auto;
+	min-height: 120px;
+	margin: 0 auto;
+	position: relative;
+	background-color: #fff;
+	}
+	.address_item{
+	margin-left:30px;
+	margin-top:30px;
+	padding-left:10px;
+	padding-top:5px;
+	width: 270px;
+	height: 120px;
+	border:  1px solid #e6e6e6;
+	float: left;
+	position: relative;
+	}
+	.address_item:hover{
+	border:1px solid #1E89E0;
+	cursor: pointer;
+     }

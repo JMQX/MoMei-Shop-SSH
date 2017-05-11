@@ -1,0 +1,78 @@
+body {
+	margin: 0px;
+	font-size: 12px;
+	color: #000000;
+}
+.p10{padding:10px;}
+td{font-size: 12px;}
+.White ,.White a{font-size: 12px; color: #FFFFFF; }
+a img {
+	border:none;
+}
+a{color:#4F94CD}
+.f_right{float:right;}
+.foot td{line-height:11px; table-layout:fixed}
+table label {color:red; font-size:12px;margin-left:5px }  /*将table下所有的拉示信息标签颜色置红*/
+
+
+/*****************************************用于编辑页**************************************************/
+.table1	{ background:#a8c7ce;} 
+.table1 td
+{
+	height:20px;font-size:12px;margin-left:5px;padding-right:5px; background:#fff; color:#344b50;
+}
+.table1 .tr td{background:#d3eaef; font-weight:bold;}
+.table1 .bt {background:#6D94A0; color:#fff;cursor: pointer;font-size:12px;border-style:none ;border:1px solid #A2B5CD;padding:3px 10px;}
+.title1{background:#353c44;line-height:25px;color:#fff;} /*表头*/
+.title1 .ico{float:left; padding-top:6px;padding-left:30px;padding-right:10px;} /*表头图标*/
+
+/******************************************用于列表页*************************************************/
+
+.table2	{ background:#a8c7ce;}
+.table2 td
+{
+	height:30px;font-size:12px;margin-left:5px;padding-right:5px; background:#fff; color:#344b50;
+}
+.table2 .tr td{background:#d3eaef; font-weight:bold;}
+.table2 .bt {background:#6D94A0; color:#fff;cursor: pointer;font-size:12px;border-style:none ;border:1px solid #A2B5CD;padding:3px 10px;}
+.title2{background:#8CB4BF;line-height:30px;color:#fff;}
+.title2 .ico{float:left; padding-top:9px;padding-left:30px;padding-right:10px;}
+
+/*
+#navigation {
+	margin:0px;
+	padding:0px;
+	width:147px;
+}
+#navigation a.head {
+	cursor:pointer;
+	background:url(images/main_34.gif) no-repeat scroll;
+	display:block;
+	font-weight:bold;
+	margin:0px;
+	padding:5px 0 5px;
+	text-align:center;
+	font-size:12px;
+	text-decoration:none;color:#353c44
+}
+#navigation ul {
+	border-width:0px;
+	margin:0px;
+	padding:0px;
+	text-indent:0px;
+}
+#navigation li {
+	list-style:none; display:inline;
+}
+#navigation li li a {
+	display:block;
+	font-size:12px;
+	text-decoration: none;
+	text-align:center;
+	padding:3px;color:#353c44
+}
+#navigation li li a:hover {
+	background:url(images/tab_bg.gif) repeat-x;
+		border:solid 1px #adb9c2;
+}
+*/

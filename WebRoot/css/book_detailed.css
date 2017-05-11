@@ -1,0 +1,73 @@
+*{
+	padding: 0px;
+	margin:0px;
+    }
+     body
+	 {
+	   color:#666666;
+	   background-color:#F7F7F7;
+	 }
+	.my_box{
+	  width:1000px;
+	  height:auto;
+	  border:1px solid #EEEEEE;
+	  background-color:white;
+	  padding-top:20px;
+	  padding-left:20px;
+	}
+	hr{
+	 color:#F7F7F7;
+	}
+	h3{
+	   color:#333333;
+	 }
+	 font{
+	  color:#666666;
+	 }
+	 
+     .des
+     {
+       width:980px;
+	  height:90px;
+	  border:1px solid #F8E5BB;
+	  background-color:#FEFDEE;
+	  
+     }
+     
+     .des a{
+       color:#666666;
+     }
+     
+     #comment
+     {
+       width:120px;
+       height:35px;
+       background-color:#F74342;
+       text-align:center;
+       color:#ffffff;
+       border-radius:3px;
+       border:0px;
+       font-size:15px;
+       cursor: pointer;
+     }
+     
+     .book_detailed
+     {
+        margin-top:20px;
+        width:980px;
+        height:auto;
+        border:1px solid #EEEEEE;
+        background-color:#F7F7F7;
+        margin-bottom:20px;
+     }
+     .send_msg
+     {
+        width:400px;
+        border:1px solid #EEEEEE;
+         background-color:#FFFFFF;
+         padding-top:10px;
+         padding-left:20px;
+         padding-bottom:10px;
+         font-size:14px;
+         color:#2E2E2E;
+     }

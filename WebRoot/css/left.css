@@ -1,0 +1,21 @@
+
+   body
+	 {
+	   background-color:#F7F7F7;
+	 }
+	 .ul_style
+	 {
+	    margin-left:50px;
+	    list-style-type:none;
+	 }
+	 .ul_style li
+	 {
+	    margin-top:5px;
+	 }
+	 h3{
+	   color:#333333;
+	 }
+	 a{
+	   text-decoration:none;
+	   color:#666666;
+	 }

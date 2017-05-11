@@ -1,0 +1,51 @@
+   *{padding: 0px;
+	margin:0px;
+	}
+	body
+	 {
+	   background-color:#F7F7F7;
+	 }
+	
+	 .my_box{
+	  width:1020px;
+	  height:150px;
+	  border:1px solid #EEEEEE;
+	  background-color:white;
+	}
+	#tx{
+	  margin-top:25px;
+	  margin-left:30px;
+	  width:100px; 
+	  height:100px;
+	}
+	
+	#tx img
+	{
+	   width:100px; 
+	   height:100px;
+	   border-radius:50%; 
+	   overflow:hidden;
+	}
+	
+	#tx:hover
+	{
+	  filter:alpha(opacity=60); 
+	  opacity:0.6; 
+	}
+	
+	.my_box_book
+	{
+	  margin-top:20px;
+	  padding-top:20px;
+	  padding-left:20px;
+	  width:1000px;
+	  height:300px;
+	  border:1px solid #EEEEEE;
+	  background-color:white;
+	}
+	hr{
+	 color:#F7F7F7;
+	}
+	h3{
+	   color:#666666;
+	 }

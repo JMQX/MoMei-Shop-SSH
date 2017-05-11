@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.momei.control.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddressServlet</servlet-name>
+    <servlet-class>com.momei.control.AddressServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EmailServlet</servlet-name>
+    <servlet-class>com.momei.control.EmailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EmailJudgeServlet</servlet-name>
+    <servlet-class>com.momei.control.EmailJudgeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ValidateServlet</servlet-name>
+    <servlet-class>com.momei.control.ValidateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>com.momei.control.AdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodsServlet</servlet-name>
+    <servlet-class>com.momei.control.GoodsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SeqServlet</servlet-name>
+    <servlet-class>com.momei.control.SeqServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookServlet</servlet-name>
+    <servlet-class>com.momei.control.BookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodsTypeServlet</servlet-name>
+    <servlet-class>com.momei.control.GoodsTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+     <servlet-name>DisplayChart</servlet-name>
+     <servlet-class>org.jfree.chart.servlet.DisplayChart</servlet-class>
+</servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WebChart_Bar</servlet-name>
+    <servlet-class>com.momei.control.WebChart_Bar</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShoppingCarServlet</servlet-name>
+    <servlet-class>com.momei.control.ShoppingCarServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CountServlet</servlet-name>
+    <servlet-class>com.momei.control.CountServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StoreServlet</servlet-name>
+    <servlet-class>com.momei.control.StoreServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommentServlet</servlet-name>
+    <servlet-class>com.momei.control.CommentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ScoreGoodsServlet</servlet-name>
+    <servlet-class>com.momei.control.ScoreGoodsServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddressServlet</servlet-name>
+    <url-pattern>/AddressServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmailServlet</servlet-name>
+    <url-pattern>/EmailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmailJudgeServlet</servlet-name>
+    <url-pattern>/EmailJudgeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ValidateServlet</servlet-name>
+    <url-pattern>/ValidateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/AdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsServlet</servlet-name>
+    <url-pattern>/GoodsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SeqServlet</servlet-name>
+    <url-pattern>/SeqServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookServlet</servlet-name>
+    <url-pattern>/BookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsTypeServlet</servlet-name>
+    <url-pattern>/GoodsTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+     <servlet-name>DisplayChart</servlet-name>
+      <url-pattern>/servlet/DisplayChart</url-pattern>
+</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WebChart_Bar</servlet-name>
+    <url-pattern>/WebChart_Bar</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShoppingCarServlet</servlet-name>
+    <url-pattern>/ShoppingCarServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CountServlet</servlet-name>
+    <url-pattern>/CountServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StoreServlet</servlet-name>
+    <url-pattern>/StoreServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommentServlet</servlet-name>
+    <url-pattern>/CommentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ScoreGoodsServlet</servlet-name>
+    <url-pattern>/ScoreGoodsServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
